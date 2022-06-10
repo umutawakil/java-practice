@@ -41,7 +41,7 @@ public class TabuleiroDynâmico {
      * Simplesmente travessa a tabuleiro esquerda para a direita, linha por linha, coluna por coluna.
      */
     private static void mostreTabuleiro(char[][] tabuleiro, int linhas, int colunas) {
-        System.out.println(String.format("Linhas: %s, Colunas: %s",linhas));
+        System.out.println(String.format("Linhas: %s, Colunas: %s",linhas, colunas));
 
         for (int l = 0; l < linhas; l++) {
             for (int c = 0; c < colunas; c++) {
