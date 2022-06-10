@@ -1,0 +1,10 @@
+*.iml
+iml
+out
+out/*
+*.class
+*.exe
+bin
+bin/*
+.idea
+.idea/*
